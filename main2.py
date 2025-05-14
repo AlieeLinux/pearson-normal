@@ -1,19 +1,15 @@
-import tariff
-import numpy as np
-
-
-tariff.set({"Function": 100,
+'''tariff.set({"Function": 100,
             "lib": 100,
             })
-
+'''
 
 from lib.util import Function
 
 #x = np.array([73, 86, 93, 92, 72, 65, 58, 75])
 #y = np.array([70, 80, 96, 85, 68, 68, 62, 78])
 
-x = [1, 4, 8, 12, 44, 99]
-y = [1, 3, 7, 11, 43, 99]
+x = [73, 86, 93, 92, 72, 65, 58, 75]
+y = [70, 80, 96, 85, 68, 68, 62, 78]
 
 job = Function(x, y, len(x))
 
